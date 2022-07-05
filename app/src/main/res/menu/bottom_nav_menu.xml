@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_unselected"
+        app:showAsAction="always"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/navigation_communication"
+        android:icon="@drawable/ic_communication_unselected"
+        app:showAsAction="always"
+        android:title="소통" />
+
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/ic_info_unselected"
+        app:showAsAction="always"
+        android:title="정보" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile_unselected"
+        app:showAsAction="always"
+        android:title="내 프로필" />
+
+</menu>
