@@ -8,8 +8,11 @@
         <entry key="app/src/main/res/drawable/category_chip_off_background.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/category_chip_on_background.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/category_chip_plus_background.xml" value="0.1715" />
+<<<<<<< HEAD
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/ic_close.xml" value="0.1715" />
+=======
+>>>>>>> 63cca40 (소통 게시판 메인화면 구성)
         <entry key="app/src/main/res/drawable/ic_communication_unselected.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1445" />
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1445" />
@@ -17,7 +20,10 @@
         <entry key="app/src/main/res/drawable/ic_info_unselected.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1445" />
         <entry key="app/src/main/res/drawable/ic_profile_unselected.xml" value="0.1715" />
+<<<<<<< HEAD
         <entry key="app/src/main/res/drawable/ic_write.xml" value="0.1715" />
+=======
+>>>>>>> 63cca40 (소통 게시판 메인화면 구성)
         <entry key="app/src/main/res/drawable/item_log_grid.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/menu_selector_color.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/writing_add_img.xml" value="0.1715" />
@@ -25,8 +31,12 @@
         <entry key="app/src/main/res/drawable/writing_main_img.xml" value="0.1715" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.23802083333333332" />
+<<<<<<< HEAD
         <entry key="app/src/main/res/layout/activity_writing.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_communication.xml" value="0.23715620134924753" />
+=======
+        <entry key="app/src/main/res/layout/fragment_communication.xml" value="0.27645721435546877" />
+>>>>>>> 63cca40 (소통 게시판 메인화면 구성)
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/fragment_info.xml" value="0.23802083333333332" />

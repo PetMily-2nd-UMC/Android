@@ -9,7 +9,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.flo.LogGridRVAdapter
+import com.example.petmilyandroid.LogGridRVAdapter
 import com.example.petmilyandroid.R
 import com.example.petmilyandroid.databinding.FragmentCommunicationBinding
 import com.example.petmilyandroid.ui.main.MainActivity
@@ -27,7 +27,7 @@ class CommunicationFragment : Fragment() {
     ): View? {
         binding = FragmentCommunicationBinding.inflate(inflater, container, false)
 
-        binding.fab.setOnClickListener {
+        binding.fabCommunication.setOnClickListener {
             startActivity(Intent(activity, WritingActivity::class.java))
         }
 

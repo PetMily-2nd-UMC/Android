@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/item_info_list_cv"
+    app:cardCornerRadius="10dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginHorizontal="18dp"
+    android:layout_marginVertical="6dp"
+    app:cardElevation="8dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/item_info_list_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고양이는 꼬리로 기분을 말해요!"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/item_info_list_time_iv"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/ic_clock"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintTop_toTopOf="@id/item_info_list_time_tv"
+            app:layout_constraintBottom_toBottomOf="@id/item_info_list_time_tv"
+            app:layout_constraintEnd_toStartOf="@id/item_info_list_time_tv"/>
+
+        <TextView
+            android:id="@+id/item_info_list_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="1분 전"
+            android:textSize="10sp"
+            android:textColor="#A3A9B1"
+            app:layout_constraintTop_toTopOf="@id/item_info_list_title_tv"
+            app:layout_constraintBottom_toBottomOf="@id/item_info_list_title_tv"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/item_info_list_contents_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여러분, 고양이의 꼬리가 의사 소통의 중요한 역할을 한다는 사실 알고..."
+            android:textSize="10sp"
+            android:textColor="#A3A9B1"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/item_info_list_title_tv"
+            app:layout_constraintStart_toStartOf="@id/item_info_list_title_tv" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/item_info_list_profile_img_cv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="9dp"
+            app:layout_constraintStart_toStartOf="@id/item_info_list_contents_tv"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_puppy_exp1"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/item_info_list_profile_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="인절미 찹쌀떡"
+            android:textSize="10sp"
+            android:textColor="#262626"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@id/item_info_list_profile_img_cv"
+            app:layout_constraintTop_toTopOf="@id/item_info_list_profile_img_cv"
+            app:layout_constraintBottom_toBottomOf="@id/item_info_list_profile_img_cv"/>
+
+        <ImageView
+            android:id="@+id/item_info_list_comment_iv"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:src="@drawable/ic_comment"
+            android:layout_marginEnd="3dp"
+            app:layout_constraintTop_toTopOf="@id/item_info_list_comment_tv"
+            app:layout_constraintBottom_toBottomOf="@id/item_info_list_comment_tv"
+            app:layout_constraintEnd_toStartOf="@id/item_info_list_comment_tv"/>
+
+        <TextView
+            android:id="@+id/item_info_list_comment_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11"
+            android:textSize="12sp"
+            android:textColor="#A1A1A1"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintTop_toTopOf="@id/item_info_list_favorite_iv"
+            app:layout_constraintEnd_toStartOf="@id/item_info_list_favorite_iv"
+            app:layout_constraintBottom_toBottomOf="@id/item_info_list_favorite_iv"/>
+
+        <ImageView
+            android:id="@+id/item_info_list_favorite_iv"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:src="@drawable/ic_favorite_unselected"
+            android:layout_marginEnd="3dp"
+            app:layout_constraintEnd_toStartOf="@id/item_info_list_favorite_tv"
+            app:layout_constraintTop_toTopOf="@id/item_info_list_favorite_tv"
+            app:layout_constraintBottom_toBottomOf="@id/item_info_list_favorite_tv"/>
+
+        <TextView
+            android:id="@+id/item_info_list_favorite_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23"
+            android:textSize="12sp"
+            android:textColor="#A1A1A1"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toTopOf="@id/item_info_list_profile_name_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/item_info_list_profile_name_tv"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
